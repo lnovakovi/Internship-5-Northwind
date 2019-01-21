@@ -1,7 +1,5 @@
 -->1.
-SELECT CompanyName,ContactName,ContactTitle,Address,City,Country,Phone from Suppliers
-
-SELECT TOP 50 * FROM Customers
+SELECT TOP(50) CompanyName,ContactName,ContactTitle,Address,City,Country,Phone from Customers
 --2.
 SELECT COUNT(CustomerID) NumCustomers FROM Customers WHERE Fax IS NOT NULL AND Region IS NOT NULL
 --3.
